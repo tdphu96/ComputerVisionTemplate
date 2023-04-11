@@ -19,7 +19,7 @@ function App() {
     // 3. TODO - Load network
     // const net = await cocossd.load();
     //  const net = await tf.loadLayersModel(modal);
-     const net = await tf.loadGraphModel(modal);
+     const net = await tf.loadGraphModel('https://raw.githubusercontent.com/tdphu96/ComputerVisionTemplate/master/src/model.json');
     //  Loop and detect hands
     //   setInterval(() => {
     //       // detect(net);
